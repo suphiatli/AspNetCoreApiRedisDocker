@@ -1,0 +1,17 @@
+﻿//get redis image
+docker pull redis
+
+//create redis container
+docker run --name local-redis -p 6379:6379 -d redis
+
+//open redis container bash cli
+winpty docker exec -it aspnetrun-redis //bin//sh
+
+//open redis-cli
+127.0.0.1:6379>
+
+//exit redis-cli
+ctrl+c
+
+//exit container
+ctrl+d
