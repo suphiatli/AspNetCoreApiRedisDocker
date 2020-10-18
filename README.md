@@ -1,4 +1,4 @@
-# AspNetCoreApiRedisDocker
+# AspNetRedisDocker
 
 
 Pull redis image from docker hub
